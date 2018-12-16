@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+/* the main container */
+.boxes {
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+    padding: 2%;
+    transform: rotate(90deg);
+    position: relative;
+    z-index: -1;
+}
+
+.box {
+    font-weight: bold;
+    width: 60%;
+    /* margin: 40px; */
+    padding: 6%;
+    font-size: 2.4em;
+    
+}
+
+.box1 {
+    background-color: purple;
+}
+
+.box2 {
+    background-color: indigo;
+}
+
+.box3 {
+    background-color: blue;
+}
+
+.box4 {
+    background-color: green;
+}
+
+.box5 {
+    background-color: yellow;
+}
+
+.box6 {
+    background-color: orange;
+}
+
+.box7 {
+    background-color:red;
+}
+/* Start of circles and oval styles */
+.circles {
+   
+}
+.circles{
+    background-color: white;
+
+        height: 750px;
+        width: 750px;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top:80%;
+        left:3%;
+        z-index: 10;
+        
+}
+.circles1{
+    background-color: white;
+
+        height: 750px;
+        width: 750px;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top:81%;
+        left:16%;
+        z-index: 10;
+        
+}
+.circles2{
+    background-color: white;
+
+        height: 750px;
+        width: 750px;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top:65%;
+        left:16%;
+        z-index: 10;
+        
+}
+.circles3{
+    background-color: white;
+
+        height: 750px;
+        width: 1500px;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top:77%;
+        left:20%;
+        z-index: 10;
+        
+}
+.circles4{
+    background-color: white;
+
+        height: 750px;
+        width: 1500px;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top:78%;
+        left:30%;
+        z-index: 10;
+        
+}
+.rectangle {
+    background-color: rgb(201, 188, 8);
+    width: 60%;
+    /* margin: 40px; */
+    padding: 6%;
+    position: absolute;
+    top: 165%;
+    left: 20%;
+}
